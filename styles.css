@@ -1,0 +1,40 @@
+#advancedSearch {
+    display: none;
+}
+
+.main-content {
+    padding: 10% 20% 10% 10%;
+}
+
+#delete-icon {
+    color: red;
+    font-size: 25px;
+}
+
+#delete-icon-container{
+    text-align: center;
+}
+
+[id^="delete-button"]  {
+    background: transparent;
+    border: none;
+}
+
+#delete-header{
+    text-align: center;
+}
+
+#autoComplete {
+    background-color: lightgray;
+    cursor: pointer;
+}
+#autoComplete li {
+    padding: 10px;
+}
+#autoComplete li:hover {
+    background-color: darkgray;
+}
+
+#autocompleteList li{
+    border-radius: 10px;
+}
